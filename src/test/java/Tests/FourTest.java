@@ -18,6 +18,8 @@ public class FourTest extends Base{
 		
 		System.out.println("Has Been Updated Test Four Executed");
 		
+		System.out.println("Moving to staging branch");
+		
 		driver = initializeDriver();
 		
 		driver.get("http://www.tutorialsninja.com/demo/");
